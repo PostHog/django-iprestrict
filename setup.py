@@ -47,7 +47,7 @@ setup(
     extras_require={
         'geoip': [
             'pycountry==17.5.14',
-            'geoip2==2.5.0',
+            'geoip2==4.6.0',
             'GeoIP==1.3.2',
             ],
         'dev': [
