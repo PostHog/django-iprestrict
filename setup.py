@@ -43,13 +43,11 @@ setup(
     zip_safe=False,
     install_requires=[
         'Django>=1.8',
+        'pycountry==17.5.14',
+        'geoip2==4.6.0',
+        'GeoIP==1.3.2',
     ],
     extras_require={
-        'geoip': [
-            'pycountry==17.5.14',
-            'geoip2==4.6.0',
-            'GeoIP==1.3.2',
-            ],
         'dev': [
             'tox',
             'pep8',
